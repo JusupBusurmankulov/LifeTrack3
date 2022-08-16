@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".fragments.ProfileFragment">
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/avatar_iv"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="71dp"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:scaleType="centerCrop"
+        app:shapeAppearanceOverlay="@style/ivStyleProfile"
+        android:src="@color/purple"/>
+
+    <LinearLayout
+        android:layout_marginTop="21dp"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_marginHorizontal="6dp"
+        android:background="@drawable/rectangle_bg_profile">
+
+    </LinearLayout>
+
+</LinearLayout>
